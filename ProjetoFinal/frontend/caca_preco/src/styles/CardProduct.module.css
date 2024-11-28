@@ -1,0 +1,110 @@
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    width: 100%;
+    color: black
+  }
+  
+  .productInfo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .productImage {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-right: 16px;
+  }
+  
+  .details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .productTitle {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333333;
+    margin: 0 0 8px;
+  }
+  
+  .productDescription {
+    font-size: 0.9rem;
+    color: #777777;
+    margin: 0 0 8px;
+  }
+  
+  .productPrice {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #27ae60;
+    margin: 0;
+  }
+  
+  .cardProductFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+  }
+  
+  .icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+    
+  }
+  
+  .p {
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    background-color: #27ae60;
+  }
+  .productTitle {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .marketIcon {
+    width: 20px; /* Ajuste conforme necessário */
+    height: 20px;
+    margin-right: 10px; /* Ajuste para o espaçamento entre o ícone e o texto */
+  }
+  
+  .productDescription {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .productPrice {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .cardProductFooter {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    color: #888;
+  }
+  
+  .icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+  }
+  

@@ -1,0 +1,101 @@
+/* Estilo do menu principal */
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #a259d1; /* Cor de fundo roxa */
+    padding: 10px 20px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    
+  }
+  
+  /* Logo e botão de menu */
+  .logoContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .menuButton {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .logo {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .highlight {
+    color: black; /* Destaque em preto */
+  }
+  
+  /* Container de ações */
+  .actionContainer {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  /* Busca */
+  .searchContainer {
+    display: flex;
+    align-items: center;
+    background-color: #f6eef7; /* Cor de fundo do campo */
+    border-radius: 5px;
+    padding: 5px 10px;
+  }
+  
+  .filterButton {
+    display: flex;
+    align-items: center;
+    background: none;
+    border: none;
+    color: #7a4e8b;
+    font-size: 14px;
+    margin-right: 5px;
+    cursor: pointer;
+    gap: 5px;
+  }
+  
+  .filterIcon {
+    font-size: 16px;
+  }
+  
+  .searchInput {
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 14px;
+    color: #7a4e8b;
+    width: 200px;
+  }
+  
+  /* Perfil */
+  .profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .profileCircle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    color: #a259d1;
+    font-size: 14px;
+    font-weight: bold;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  
+  .profileName {
+    font-size: 14px;
+  }
+  

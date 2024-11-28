@@ -1,0 +1,9 @@
+Explicação das dependências:
+
+express: Para criar a API REST.
+sequelize: ORM para gerenciar o banco de dados.
+mysql2: Driver para conectar ao MySQL.
+dotenv: Para gerenciar variáveis de ambiente.
+jsonwebtoken: Para autenticação com JWT.
+bcrypt: Para encriptação de senhas.
+nodemon: Para reiniciar automaticamente o servidor em desenvolvimento.

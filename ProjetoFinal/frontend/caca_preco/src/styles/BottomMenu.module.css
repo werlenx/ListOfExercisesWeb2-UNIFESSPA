@@ -1,0 +1,37 @@
+.bottomMenu {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: #9356F8; /* Cor de fundo roxa */
+  padding: 15px 0; /* Aumentando um pouco o espaçamento */
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.menuItem {
+  width: 40px;
+  height: 40px;
+  background: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: rgb(16, 32, 155);
+  border-radius: 50%; /* Faz a borda ficar redonda */
+}
+
+.menuItem:focus {
+  outline: none;
+}
+
+.icon {
+  width: 30px; /* Tamanho do ícone */
+  height: 30px;
+  
+  padding: 4px; /* Adiciona um pouco de espaço interno */
+
+}
