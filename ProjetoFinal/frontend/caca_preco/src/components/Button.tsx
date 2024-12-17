@@ -3,7 +3,7 @@ import styles from "../styles/Button.module.css";
 interface ButtonProps {
   text: string;
   type: "button" | "submit" | "reset";
-  onClick: () => void;
+  onClick?: () => void;
   size?: "small" | "medium" | "large";
   color?: string; 
   textColor?: string;

@@ -1,0 +1,10 @@
+implementar zod para verrificar estruturas dos dados retornados pela api
+
+
+
+{
+	"nome":"adm",
+	"email":"adm@teste.com",
+	"senha":"adm123",
+	"tipo_usuario":"consumidor"
+}

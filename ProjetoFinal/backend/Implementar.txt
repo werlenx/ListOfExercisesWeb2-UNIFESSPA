@@ -1,0 +1,3 @@
+joi ou express-valitator para validaçãode campos
+
+dividir aplicação em services para separar a logica de negocio pesada dos controllers
